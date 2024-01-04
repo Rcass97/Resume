@@ -487,7 +487,7 @@ ol ul {
 }
 
 li {
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 
@@ -612,22 +612,115 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .bio{ 
+    background-color: red; 
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .experience{
+    background-color: blue; 
+    border-radius: 0 20px 20px 0;
+  }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  
+}
 
 /* My Own Styles */
 .box-shadow {
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
+.bio{
+  height: 100%; 
+  background-color: rgb(179, 179, 179); 
+  border-radius: 20px 20px 0 0px;
+}
+
+.experience{
+  height: 100%; 
+  background-color: rgb(226, 226, 226); 
+  border-radius: 0 0 20px 20px;
+}
+
+.resumesection{
+  padding: 10px;
+}
+
+.profilepic{
+  width: 70%; 
+  border-radius: 50%;
+  background-color: white;
+}
+
+.fullname{
+  text-align: center;
+  margin: 0;
+  font-size: 45px;
+}
+
+.jobtitle{
+  text-align: center; 
+  margin: 0; font-size: 18px; 
+  padding: 5px;
+}
+
+.contactinfo{
+  margin: 10px 0 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.schoolname{
+  font-weight: bold; 
+  font-size: 18px; 
+  margin: 0;
+}
+
+.job{
+  margin: 20px 0 20px 0;
+}
+
+.jobtitle{
+  font-size: 20px; 
+  margin-bottom: 0; 
+  font-weight: bold;
+}
+
+.companyname{
+  margin: 5px 10px 5px 10px; 
+  font-size: 18px;
+}
+
+.joblist{
+  margin: 0 10px 0 25px; 
+  list-style-type: square;
+}
+
+.skillsleft{
+  margin: 0 0 0 25px; 
+  list-style-type: square;
+}
+
+.skillsright{
+  margin: 0; 
+  list-style-type: square;
+}
